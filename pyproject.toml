@@ -7,10 +7,11 @@ requires-python = ">=3.11"
 dependencies = [
     "agent-framework-core==1.0.1",
     "agent-framework-openai==1.0.1",
-    "azure-identity>=1.25.1",
-    "fastmcp[apps]>=3.2.4",
-    "langchain>=1.2.15",
-    "langchain-mcp-adapters>=0.2.2",
-    "langchain-openai>=1.1.12",
-    "pydantic-ai>=1.80.0",
+    "fastmcp[apps]==3.2.4",
+    "langchain==1.2.15",
+    "langchain-mcp-adapters==0.2.2",
+    "langchain-openai==1.1.12",
+    "mcp>=1.9.0",
+    "prefab-ui==0.20.2",
+    "uv>=0.11.26",
 ]
